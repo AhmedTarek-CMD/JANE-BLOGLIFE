@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+header ul li {
+  padding: 0.5rem 1rem;
+  color: white;
+}
+header ul li:hover {
+  background-color: #999;
+}
+header .search:hover {
+  background-color: #999;
+}
+.title p {
+  letter-spacing: -1px;
+}
+.landing {
+  background-image: url(../images/jane.jpg);
+  height: 140vh;
+}
+.landing .text {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.landing .text .fs-1 {
+  letter-spacing: 3px;
+}
+.landing .text .fs {
+  font-size: 3rem;
+  letter-spacing: 5px;
+}
+.landing .text a {
+  text-decoration: none;
+  border-radius: 0;
+  background-color: #999;
+  font-weight: 700;
+}
+.landing .text a:hover {
+  background-color: #cdcdcd;
+}
+.big .heading {
+  background-color: white;
+}
+.big .heading .be::before {
+  content: "More Hats!";
+  font-weight: bold;
+}
+.big .heading .bee::before {
+  content: "Hats!";
+  font-weight: bold;
+}
+.big .heading .beee::before {
+  content: "Dont miss!";
+  font-weight: bold;
+}
+.big .heading .btns svg {
+  padding: 5px;
+}
+.big .heading .btns .like:hover {
+  background-color: #ebebeb;
+}
+.big .heading .me {
+  position: relative;
+}
+.big .heading .me::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 1px;
+  width: calc(100% - 3rem);
+  background-color: #ececec;
+}
+.big .heading .me img {
+  width: 100px;
+}
+.big .heading .me .text .fs-5 {
+  letter-spacing: -1px;
+}
+.blur {
+  filter: grayscale(50%);
+}
+.big .popular .box img {
+  width: 60px;
+}
+h4 {
+  letter-spacing: -2px;
+}
+.follow .links svg {
+  font-size: 1.5rem;
+  padding-right: 0.5rem;
+}
+.follow .links svg:hover {
+  color: #999;
+}
+.subscribe .email a:hover {
+  background-color: #ccc !important;
+  color: black !important;
+}
+footer {
+  background-color: #666;
+}
+.popup-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5000px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.popup .text {
+  padding: 50px;
+  background-color: white;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  z-index: 1000;
+  width: 900px;
+  height: 350px;
+}
+.popup .text .head {
+  display: flex;
+  justify-content: space-between;
+}
+.popup .text .head p {
+  letter-spacing: 3px;
+  font-weight: bold;
+  font-size: 30px;
+}
+.popup .text .head .paragraph {
+  cursor: pointer;
+}
+.popup .text .inn {
+  width: 100%;
+  margin-top: 15px;
+  border: 1px solid black;
+  padding: 8px;
+}
+.popup .text .aa {
+  text-decoration: none;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #e36d13;
+  color: white;
+}
